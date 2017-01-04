@@ -141,3 +141,14 @@ In-document links (HTML is *parsed normally* in Markdown):
 |Table Cell   |Table Cell   |Table Cell   |
 |Left Align   |Center Align |Right Align  |
 |Table Cell   |Table Cell   |Table Cell   |
+
+
+## Checklists
+
+``` [ ] To Do 1 ```
+``` [x] To Do 2 ```
+``` [ ] To Do 3 ```
+
+[ ] To Do 1
+[x] To Do 2
+[ ] To Do 3
