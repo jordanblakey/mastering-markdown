@@ -45,7 +45,7 @@ In-document links (HTML is *parsed normally* in Markdown):
 
 ```![alt text](http://url.com "tooltip")```
 
-![Alt text](http://unsplash.it/500/300?random "Tooltip text.") ![This is some alt text.](http://unsplash.it/300/100?image=1000 "This is the tooltip.") ![This is some alt text.](http://unsplash.it/100/100?image=900 "This is the tooltip.") ![This is some alt text.](http://unsplash.it/50/50?image=523 "This is the tooltip.")
+![Alt text](http://unsplash.it/500/300?random "Tooltip text.") ![This is some 
 
 ```[![Alt text](http://unsplash.it/500/500?image=1012 "Hover for tooltip.")](http://google.com)```
 [![Alt text](http://unsplash.it/500/500?image=1012 "google.com")](http://google.com)
