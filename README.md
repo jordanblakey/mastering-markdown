@@ -57,9 +57,9 @@ In-document links (HTML is *parsed normally* in Markdown):
 
 ## Unordered Lists
 
-``` + List Item 1 ```
-``` Tab- List Item 2 ```
-``` * &double; List Item 3 ```
+``` + List Item 1 ``` <br>
+``` Tab- List Item 2 ``` <br>
+``` * &double; List Item 3 ``` <br>
 
 * List Item
 * List Item
@@ -69,9 +69,9 @@ In-document links (HTML is *parsed normally* in Markdown):
         * Nested Nested List Item
 
 ## Ordered Lists: *Note the Auto Increment*
-``` 1. List Item 1 ```
-``` 1. List Item 2 ```
-``` 1. List Item 3 ```
+``` 1. List Item 1 ``` <br>
+``` 1. List Item 2 ``` <br>
+``` 1. List Item 3 ``` <br>
 
 
 1. List Item 1
