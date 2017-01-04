@@ -83,14 +83,16 @@ In-document links (HTML is *parsed normally* in Markdown):
 
 ---
 
-## Block Quotes
+## Block Quotes  
 
-``` > This, friends, ```
-``` > is an emminently quotable ```
-``` > "blockquote" you can share .```
+``` > This, friends,<br> ```
+``` > is an emminently quotable<br> ```
+``` > "blockquote" you can share.```
 
-> This, friends,
-> is an emminently quotable
-> "blockquote" you can share .
+> This, friends,<br>
+> is an emminently quotable<br>
+> "blockquote" you can share.
 >
 > **- Importantus Thinkerus**
+
+Still going...
