@@ -45,10 +45,10 @@ In-document links (HTML is *parsed normally* in Markdown):
 
 ```![alt text](http://url.com "Hover for tooltip text.")```
 
-![Alt text](http://unsplash.it/500/300?random "Neat, huh?") 
+![Alt text](http://unsplash.it/500/300?random "Neat, huh?")
 
 ```[![Alt text](http://unsplash.it/500/500?image=1012 "Hover for tooltip.")](http://google.com)```
-[![Alt text](http://unsplash.it/500/500?image=1012 "google.com")](http://google.com)
+[![Alt text](http://unsplash.it/500/500?image=1012 "How peaceful.")](http://google.com)
 
 
 ## HTML Renders Normally: *Yo Dawg...*
