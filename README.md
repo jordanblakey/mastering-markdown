@@ -58,8 +58,11 @@ In-document links (HTML is *parsed normally* in Markdown):
 ## Unordered Lists
 
 ``` + List Item 1 ``` <br>
-``` Tab- List Item 2 ``` <br>
-``` * &double; List Item 3 ``` <br>
+``` + List Item 1 ``` <br>
+``` (tab) - List Item 2 ``` <br>
+``` (tab) - List Item 2 ``` <br>
+``` (tab)(tab) * &double; List Item 3 ``` <br>
+``` (tab)(tab) * &double; List Item 3 ``` <br>
 
 * List Item
 * List Item
