@@ -149,9 +149,9 @@ In-document links (HTML is *parsed normally* in Markdown):
 
 ## Checklists: *To Do or Not To Do...*
 
-``` - [ ] To Do 1 ```
-``` - [x] To Do 2 ```
-``` - [ ] To Do 3 ```
+``` - [ ] To Do 1 ``` <br>
+``` - [x] To Do 2 ``` <br>
+``` - [ ] To Do 3 ``` <br>
 
 - [ ] To Do 1
 - [x] Finish Markdown Cheat Sheet.
