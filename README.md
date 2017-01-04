@@ -102,7 +102,8 @@ In-document links (HTML is *parsed normally* in Markdown):
     ```
 
     <?php
-        echo "Or use opening tags and closing tags. " + "Or, check that your parser can auto-detect your syntax of choice.";
+        echo "Or use opening tags and closing tags. " +
+        "Or, check that your parser can auto-detect your syntax of choice.";
             if ($hope > 9000){
                 echo "What, nine, thousand?!"
             };
@@ -113,7 +114,9 @@ In-document links (HTML is *parsed normally* in Markdown):
     const idiom = "It's not what you know...";
     console.log("And knowing is half the battle!");
 
-    // Showing a version control diff. This doesn't render correctly in Github it seems, but could be useful if you're using a different Markdown parser.
+    # Showing a version control diff. This doesn't render
+    # correctly in Github it seems, but could be useful if
+    # you're using a different Markdown parser.
 
     ```diff
     + added line;
