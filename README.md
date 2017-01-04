@@ -10,7 +10,7 @@
 ##### Heading 5
 ``` ###### Heading 6 ```
 ###### Heading 6
-[google](#google)
+[google](#unique-google)
 
 ``` A newline creates a new paragraph. ```
 This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -23,7 +23,9 @@ This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, s
 **Bold** __Bold__
 
 ``` ~~Strikethrough~~ ```
-~~Strikethrough~~(#google)
+~~Strikethrough~~
+
+(#unique-google)
 
 ``` <http://google.com> ```
 <http://google.com>
