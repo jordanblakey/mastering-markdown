@@ -97,12 +97,43 @@ In-document links (HTML is *parsed normally* in Markdown):
 
 ## Code Snippets
 
-``` ```(Surround with triple backticks for inline code.) ``` ``` ``` ```
+``` (Surround with triple backticks for inline code.) ```
 
+```
 
+    <?php
+        echo "Or use opening tags and closing tags. " + "Or, check that your parser can auto-detect your syntax of choice.";
+            if ($hope > 9000){
+                echo "What, nine, thousand?!"
+            };
+    ?>
+
+    // Javascript
+    let x = 4;
+    const idiom = "It's not what you know...";
+    console.log("And knowing is half the battle!");
+
+    // Showing a version control diff. This doesn't render correctly in Github it seems, but could be useful if you're using a different Markdown parser.
 
     ```diff
     + added line;
     - deleted line;
       normal line;
     ```
+
+## Tables
+
+```
+
+|Table Heading|Table Heading|Table Heading|
+|:------------|:-----------:|------------:|
+|Table Cell   |Table Cell   |Table Cell   |
+|Left Align   |Center Align |Right Align  |
+|Table Cell   |Table Cell   |Table Cell   |
+```
+
+|Table Heading|Table Heading|Table Heading|
+|:------------|:-----------:|------------:|
+|Table Cell   |Table Cell   |Table Cell   |
+|Left Align   |Center Align |Right Align  |
+|Table Cell   |Table Cell   |Table Cell   |
