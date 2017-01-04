@@ -99,17 +99,7 @@ In-document links (HTML is *parsed normally* in Markdown):
 
 ``` ```(Surround with triple backticks for inline code.) ``` ``` ``` ```
 
-    <?php
-        /* Or use opening tags and closing tags.
-            Or, check that your parser can auto-detect your syntax of choice */
-            $name = "Guy";
-        echo $name;
-    ?>
 
-    // Javascript
-    let x = 4;
-    const idiom = "It's not what you know...";
-    console.log("Hello World!");```
 
     ```diff
     + added line;
