@@ -43,9 +43,9 @@ In-document links (HTML is *parsed normally* in Markdown):
 
 ## Images: *With Tooltips, Alt Text and as Links*
 
-```![alt text](http://url.com "tooltip")```
+```![alt text](http://url.com "Hover for tooltip text.")```
 
-![Alt text](http://unsplash.it/500/300?random "Tooltip text.") ![This is some 
+![Alt text](http://unsplash.it/500/300?random "Neat, huh?") 
 
 ```[![Alt text](http://unsplash.it/500/500?image=1012 "Hover for tooltip.")](http://google.com)```
 [![Alt text](http://unsplash.it/500/500?image=1012 "google.com")](http://google.com)
