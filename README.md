@@ -86,7 +86,9 @@ In-document links (HTML is *parsed normally* in Markdown):
 ## Block Quotes  
 
 ``` > This, friends,<br> ```
+
 ``` > is an emminently quotable<br> ```
+
 ``` > "blockquote" you can share.```
 
 > This, friends,<br>
