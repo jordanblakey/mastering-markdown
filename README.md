@@ -99,7 +99,7 @@ In-document links (HTML is *parsed normally* in Markdown):
 
 ``` (Surround with triple backticks for inline code.) ```
 
-```
+    ```
 
     <?php
         echo "Or use opening tags and closing tags. " + "Or, check that your parser can auto-detect your syntax of choice.";
@@ -119,6 +119,7 @@ In-document links (HTML is *parsed normally* in Markdown):
     + added line;
     - deleted line;
       normal line;
+    ```
     ```
 
 ## Tables
