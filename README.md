@@ -1,20 +1,21 @@
-<a name="top"></a>
 ``` # Heading 1 ```
-# Heading 1
-``` ## Heading 2 ```
-## Heading 2
-``` ### Heading 3 ```
-### Heading 3
-```#### Heading 4 ```
-#### Heading 4
-``` ##### Heading 5 ```
-##### Heading 5
-``` ###### Heading 6 ```
-###### Heading 6
+# Mastering Markdown: *A Cheatsheet*
 
-``` A newline creates a new paragraph. ```
+``` ## Heading 2 ```
+## Heading 2: *Comes with a hard rule.*
+``` ### Heading 3 ```
+### Heading 3: *From There, Some*
+```#### Heading 4 ```
+#### Heading 4: *Nice*
+``` ##### Heading 5 ```
+##### Heading 5: *And Increasingly Subtle*
+``` ###### Heading 6 ```
+###### Heading 6: *Subheads*
+
+``` A newline creates a new paragraph in Github. Other parsers take 2. ```
 This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+## Inline Styles: *Bold, Italic, Strikethrough*
 
 ``` *Italic* _Italic_ ```
 *Italic* _Italic_
@@ -25,23 +26,71 @@ This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, s
 ``` ~~Strikethrough~~ ```
 ~~Strikethrough~~
 
+## Links: *Hyperlink & Table of Contents*
+
 ``` <http://google.com> ```
 <http://google.com>
 
 ``` [http://google.com](http://google.com) ```
 [http://google.com](http://google.com)
 
+In-document links (HTML is *parsed normally* in Markdown):
+```Link Text: <a href="#top">Top</a>```
+```Target: <a name="top"></a>```
+
+<a href="#top">Top</a>
+<a name="top">Target</a>
+
+## Images: *With Tooltips, Alt Text and as Links*
+
 ```![alt text](http://url.com "tooltip")```
+![Alt text](http://unsplash.it/500/300?random "Tooltip text.") ![This is some alt text.](http://unsplash.it/300/100?image=1000 "This is the tooltip.") ![This is some alt text.](http://unsplash.it/100/100?image=900 "This is the tooltip.") ![This is some alt text.](http://unsplash.it/50/50?image=523 "This is the tooltip.")
 
-``` ![Alt text](http://unsplash.it/500/500?random "Tooltip text.") ```
-![Alt text](http://unsplash.it/500/500?random "Tooltip text.")
-
-```[![Alt text](http://unsplash.it/500/500?image=1012 "google.com")](http://google.com)```
+```[![Alt text](http://unsplash.it/500/500?image=1012 "Hover for tooltip.")](http://google.com)```
 [![Alt text](http://unsplash.it/500/500?image=1012 "google.com")](http://google.com)
 
 
-<a href="#top">Top</a>
+## HTML Renders Normally: *Yo Dawg...*
+<h4>This is HTML Markup, <br><span style="color:red"> And HTML Styled With Inline CSS.<span></h4>
 
-![This is some alt text.](http://unsplash.it/500/500?image=1000 "This is the tooltip.")
-![This is some alt text.](http://unsplash.it/500/500?image=900 "This is the tooltip.")
-![This is some alt text.](http://unsplash.it/500/500?image=523 "This is the tooltip.")
+
+## Unordered Lists
+
+``` + List Item 1 ```
+``` Tab- List Item 2 ```
+``` * &double; List Item 3 ```
+
+* List Item
+* List Item
+    * Nested List Item
+    * Nested List Item
+        * Nested Nested List Item
+        * Nested Nested List Item
+
+## Ordered Lists: *Note the Auto Increment*
+``` 1. List Item 1 ```
+``` 1. List Item 2 ```
+``` 1. List Item 3 ```
+
+
+1. List Item 1
+1. List Item 2
+1. List Item 3
+
+## Horizontal Rules
+
+``` --- ```
+
+---
+
+## Block Quotes
+
+``` > This, friends, ```
+``` > is an emminently quotable ```
+``` > "blockquote" you can share .```
+
+> This, friends,
+> is an emminently quotable
+> "blockquote" you can share .
+>
+> **- Importantus Thinkerus**
